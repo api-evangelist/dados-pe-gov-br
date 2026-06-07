@@ -1,0 +1,11 @@
+name: Pernambuco Open Data
+url: https://raw.githubusercontent.com/api-evangelist/dados-pe-gov-br/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.8.4), ~40 datasets.
+    endpoints:
+      - url: https://dados.pe.gov.br/api/3/action/status_show
+        status: 200

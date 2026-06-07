@@ -1,0 +1,58 @@
+aid: dados-pe-gov-br
+name: Pernambuco Open Data
+description: >-
+  Pernambuco Open Data is a state government open-data portal for Brazil running CKAN.
+  It exposes the CKAN catalog API over approximately 40 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/dados-pe-gov-br/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - State Government
+  - Brazil
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: dados-pe-gov-br:catalog
+    name: Pernambuco Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Pernambuco Open Data, covering ~40 datasets. Base URL https://dados.pe.gov.br/api/3/action/.
+    humanURL: https://dados.pe.gov.br
+    baseURL: https://dados.pe.gov.br/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://dados.pe.gov.br
+      - type: x-api-endpoint
+        url: https://dados.pe.gov.br/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.8.4'
+common:
+  - type: Website
+    url: https://dados.pe.gov.br
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/dados-pe-gov-br-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dados-pe-gov-br-rate-limits.yml
+  - type: FinOps
+    url: finops/dados-pe-gov-br-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
